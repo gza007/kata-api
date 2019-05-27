@@ -20,7 +20,7 @@ const addToArray2 = (element, array) => {
 };
 
 const removeNthElement = (index, array) => {
-  return array.splice(index, 1);
+  array.splice(index, 1);
 };
 
 const numbersToStrings = (numbers) => {
