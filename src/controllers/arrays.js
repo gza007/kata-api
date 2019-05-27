@@ -1,7 +1,7 @@
 const {
   getNthElement,
   arrayToCSVString,
-  addToArray2,
+  addToArray,
   elementsStartingWithAVowel,
   removeNthElement2,
 } = require('../lib/arrays');
@@ -15,7 +15,7 @@ exports.arrayToCSVString = (req, res) => {
 };
 
 exports.addToArray = (req, res) => {
-  res.status(200).json({ result: addToArray2(req.body.value, req.body.array) });
+  res.status(200).json({ result: addToArray(req.body.value, req.body.array) });
 };
 
 exports.elementsStartingWithAVowel = (req, res) => {

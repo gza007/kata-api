@@ -12,7 +12,9 @@ const csvStringToArray = (string) => {
 };
 
 const addToArray = (element, array) => {
-  return array.push(element);
+  array.push(element);
+  return array;
+  // added return array to pass test in Kata-api project
 };
 
 const addToArray2 = (element, array) => {
